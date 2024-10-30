@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saiful Ahdi</title>
+    <title>Informasi Mahasiswa</title>
 </head>
+
 <body>
-    
+    <div style="text-align: center;">
+        <img src="logo_universitas.png" alt="Logo Universitas" width="100" height="100">
+        <h2>Nama Universitas dan Logo</h2>
+    </div>
+</body>
+
+<body>
+    <h3>List Nama Mahasiswa:</h3>
+    <ul>
+        <li><a href="boengky.html" target="detailFrame">Boengky</a></li>
+        <li><a href="agung.html" target="detailFrame">Agung</a></li>
+        <li><a href="andi.html" target="detailFrame">Andi</a></li>
+    </ul>
+</body>
+
+<body>
+
+<frameset rows="20%,80%">
+    <!-- Frame header untuk logo dan nama universitas -->
+    <frame src="header.html" name="headerFrame">
+
+    <frameset cols="30%,70%">
+        <!-- Frame daftar nama mahasiswa -->
+        <frame src="daftar_mahasiswa.html" name="listFrame">
+        
+        <!-- Frame detail identitas mahasiswa -->
+        <frame src="detail_mahasiswa.html" name="detailFrame">
+    </frameset>
+</frameset>
+
 </body>
 </html>
