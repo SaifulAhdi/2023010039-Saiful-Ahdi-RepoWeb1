@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_SaifulAhdi</title>
+</head>
+<body>
+    <h1> Formulir Pendaftaran Mahasiswa Baru</h1>
+
+    <form action="#" method="post">
+        <label for="nama"> Nama Lengkap :</label>
+        <input type="text" id="nama" name="nama"> <br><br>
+
+        <label for="alamat">Alamat:</label><br>
+	    <input type="text" id="address" name="address"><br><br>
+	
+        <label for="gender">Jenis Kelamin:</label>
+            <input type="radio" id="pria" name="gender" value="Pria" required>
+        <label for="pria">Pria</label>
+            <input type="radio" id="wanita" name="gender" value="Wanita" required>
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="prodi">Program Studi:</label>
+            <select id="prodi" name="prodi">
+                <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                <option value="Teknik Informatika">Administrasi Bisnis Internasional</option>
+                <option value="Sistem Informasi">Akuntansi Keuangan Publik</option>
+                <option value="Teknik Komputer">Bisnis Digital</option>
+            </select><br><br>
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon"><br><br>
+
+        <input type="submit" value="Daftar">
+
+    </form>
+</body>
+</html>

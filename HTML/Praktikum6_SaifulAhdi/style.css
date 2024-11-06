@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Abu-abu tua */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: #ccc; /* Abu-abu terang */
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation a {
+    color: #333; /* Abu-abu tua */
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: #f9f9f9; /* Putih lembut */
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #333; /* Garis abu-abu tua */
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #e6e6e6; /* Abu-abu sangat terang */
+    padding: 20px;
+    border: 1px solid #333, ; /* Garis abu-abu tua */
+}
+
+footer {
+    background-color: #666; /* Abu-abu sedang */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 50px;
+    display: block;
+    margin: 0 auto;
+}
