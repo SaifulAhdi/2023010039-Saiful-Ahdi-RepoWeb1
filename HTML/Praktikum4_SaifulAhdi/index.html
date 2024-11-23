@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Informasi Data Mahasiswa</title>
 </head>
-<frameset cols="20%,*">
+<frameset cols="*,80%">
 
     <!-- Frame kiri untuk daftar nama mahasiswa --> 
     <frame src="list.html" name="listFrame">
@@ -14,9 +14,13 @@
         
     <!-- Frame header untuk menampilkan nama universitas dan logo -->
         <frame src="header.html" name="headerFrame">
+            
+            <frameset rows="50%,50%">
+                <frame src="detail.html" name="areanamaatas"></frame>
+
 
     <!-- Frame kanan untuk detail informasi mahasiswa -->
-        <frame src="detail.html" name="detailFrame">
+        <frame src="detail.html" name="areanamabawah">
             
     </frameset>
 </frameset>
