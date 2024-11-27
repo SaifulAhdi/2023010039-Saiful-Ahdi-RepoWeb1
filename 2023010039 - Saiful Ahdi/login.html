@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="konten.html">Konten</a></li>
+                <li><a href="picture.html">Picture</a></li>
+                <li><a href="jadwal.html">Jadwal</a></li>
+                <li class="login-menu"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main><div class="center-container">
+        <h2>Login or Register</h2>
+        <button class="btn" id="openLoginForm">Open Login Form</button>
+        <button class="btn" id="openRegisterForm">Open Register Form</button>
+    </div>
+
+        <!-- Login Form Pop-up -->
+        <div class="popup" id="loginPopup">
+            <div class="popup-content">
+                <span class="close-btn" id="closeLogin">&times;</span>
+                <h3>Login</h3>
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Register Form Pop-up -->
+        <div class="popup" id="registerPopup">
+            <div class="popup-content">
+                <span class="close-btn" id="closeRegister">&times;</span>
+                <h3>Register</h3>
+                <form>
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" name="username" placeholder="Enter Username" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" placeholder="Enter Password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="assets/LOGO POLIBANG.png" alt="Logo Polibang">
+            <p>2023010039 - Saiful Ahdi | &copy; 2024</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
