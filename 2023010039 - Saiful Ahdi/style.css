@@ -88,9 +88,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 20px;
-    position: relative; /* Pastikan footer tidak menutupi konten */
+    position: relative; /*footer tidak menutupi konten */
     bottom: 0;
-    width: 100%; /* Pastikan footer mencakup lebar penuh */
+    width: 100%; /*footer mencakup lebar penuh */
 }
 
 footer .footer-content {
@@ -302,7 +302,6 @@ article .btn:hover {
 }
 
 .gallery-item {
-    text-align: center;
     width: 180px;
     border: 2px solid white;
     border-radius: 10px;
@@ -335,7 +334,7 @@ article .btn:hover {
     color: inherit;
 }
 
-/* Profile Section Styling */
+/* Menu Profile*/
 .profile {
     display: flex;
     justify-content: center;
@@ -419,4 +418,3 @@ article .btn:hover {
 .schedule tr:hover {
     background-color: #ddd;
 }
-
